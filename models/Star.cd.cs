@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Galaxies.enums;
 
 namespace Galaxies.models
@@ -15,6 +16,8 @@ namespace Galaxies.models
         {
             return num >= lowerLimit && num < upperLimit;
         }
+
+        List<Planet> planets;
 
         StarClass determineGalaxyObjectClass ()
         {

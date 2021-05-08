@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Galaxies.enums;
 
 namespace Galaxies.models
@@ -7,6 +8,8 @@ namespace Galaxies.models
     {
         PlanetType type;
         bool isHabitat;
+
+        List<Moon> moons;
 
         public override void toString()
         {

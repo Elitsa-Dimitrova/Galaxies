@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Galaxies.enums;
 
 namespace Galaxies.models
@@ -9,6 +10,7 @@ namespace Galaxies.models
         GalaxyType type;
         double age;
         string ageLiteral;
+        List<Star> starts;
 
          public override void toString()
         {
