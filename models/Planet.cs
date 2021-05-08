@@ -9,8 +9,6 @@ namespace Galaxies.models
         PlanetType type;
         bool isHabitat;
 
-        List<Moon> moons;
-
         public override void toString()
         {
             Console.WriteLine("Printing planet.");

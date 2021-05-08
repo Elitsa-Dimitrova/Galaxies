@@ -10,9 +10,8 @@ namespace Galaxies.models
         GalaxyType type;
         double age;
         string ageLiteral;
-        List<Star> starts;
 
-         public override void toString()
+        public override void toString()
         {
             Console.WriteLine("Printing galaxy.");
         }

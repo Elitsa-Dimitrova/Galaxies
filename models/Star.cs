@@ -17,8 +17,6 @@ namespace Galaxies.models
             return num >= lowerLimit && num < upperLimit;
         }
 
-        List<Planet> planets;
-
         StarClass determineGalaxyObjectClass ()
         {
             double radius = size / 2;
