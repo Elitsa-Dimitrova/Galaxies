@@ -2,8 +2,13 @@ namespace Galaxies.models
 {
     abstract class SpaceObject
     {
-        string name;
+        protected string name;
 
-        public abstract void toString();
+        public abstract void print();
+        public SpaceObject(string name)
+        {
+            this.name = name;
+        }
+
     }
 }

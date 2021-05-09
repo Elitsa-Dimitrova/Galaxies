@@ -4,9 +4,10 @@ namespace Galaxies.models
 {
     class Moon: SpaceObject
     {
-        public override void toString()
+        public Moon (string name): base(name){}
+        public override void print()
         {
-            Console.WriteLine("Printing moon.");
+            Console.WriteLine("             §  {0}", this.name);
         }
     }
 }

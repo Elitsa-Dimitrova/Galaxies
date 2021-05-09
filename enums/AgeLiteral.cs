@@ -1,7 +1,7 @@
 namespace Galaxies.enums
 {
-    public enum Ageliteral
+    public enum AgeLiteral
     {
-        M, B
+        B, M
     }
 }
